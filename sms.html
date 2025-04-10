@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sms.css">
+</head>
+<body>
+    <p class="logo">PIX</p>
+    <header>
+        
+        <div class="up">
+            <div class="isk">
+                <input id="p" onkeyup="poisk()" placeholder="Search">
+                <img src="folder/lupa.png" alt="" class="search-icon">
+            </div>
+            <img onclick="off()" class="not" src="folder/notif.png" width="2.3%">
+            <img onclick="off2()" class="not2" src="folder/notifoff.png" width="2.3%">
+            <img class="ava" src="folder/ava.png" width="3%">
+            <p id="nik">user</p>
+        </div>
+    </header>
+    <main>
+        <div class="knopki">
+            <a class="kn" href="glav.html"><img class="knimg" src="folder/home.png" >home</a>
+            <a class="kn" href="music.html"><img class="knimg"  src="folder/music.png" >music</a>
+            <a class="kn1" href="sms.html"><img class="knimg"  src="folder/friends.png" >friends</a>
+            <a class="kn" href="favourite.html"><img class="knimg"  src="folder/favourite.png" >action</a>
+            <a class="kn" href="profile.html"><img class="knimg"  src="folder/me.png" >profile</a>
+            <a class="kn" href="index.html"><img class="knimg"  src="folder/out.png" >log out</a>
+        </div>
+        <div class="big">
+            <div class="text1"><p onclick="fr()" >Friends</p></div>
+                    <div class="fr"><img class="st1" src="folder/maria.jpg" ><p class="niki"><span class="name">Maria</span> <br>Volgograd</p><button class="a1" onclick="del(1)">Friends</button></div>
+                    <div class="fr"><img class="st1" src="folder/polina.jpg" ><p class="niki"><span class="name">Polina</span> <br>Cherepovec</p><button class="a2" onclick="del(2)">Friends</button></div>
+                    <div class="fr"><img class="st1" src="folder/lera.jpg" ><p class="niki"><span class="name">Valeria</span> <br>Krasnodar</p><button class="a3" onclick="del(3)">Friends</button></div>
+                    <div class="fr"><img class="st1" src="folder/sonya.jpg" ><p class="niki"><span class="name">Sonya</span> <br>Kirjach</p><button class="a4" onclick="del(4)">Friends</button></div>
+                    <div class="fr"><img class="st1" src="folder/damira.jpg"><p class="niki"><span class="name">Damira</span> <br>Rostov-on-Don</p><button class="a5" onclick="del(5)">Friends</button></div>
+                    <div class="fr"><img class="st1" src="folder/elis.jpg"><p class="niki"><span class="name">Elis</span> <br>Elmshorn</p><button class="a6" onclick="del(6)">Friends</button></div>
+                    <div class="fr"><img class="st1" src="folder/veronika.jpg"><p class="niki"><span class="name">Veronika</span> <br>Moscow</p><button class="a7" onclick="del(7)">Friends</button></div>
+                    <div class="fr"><img class="st1" src="folder/olya.jpg" ><p class="niki"><span class="name">Olya</span> <br>Volgograd</p><button class="a8" onclick="del(8)">Friends</button></div>
+                    <div class="fr"><img class="st1" src="folder/sonyaig.jpg" ><p class="niki"><span class="name">Sonya</span> <br>Altai</p><button class="a9" onclick="del(9)">Friends</button></div>
+                
+        </div>
+    </main>
+</body>
+<script src="sms.js"></script>
+</html>

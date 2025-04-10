@@ -1,0 +1,163 @@
+html{
+    background-color: rgb(255, 255, 255);
+    font-family: pixel;
+    /* overflow-x:hidden ; */
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:pixel ;
+    src: url("Monocraft.otf");
+}
+header{
+    padding: 1%;
+}
+.logo{
+    margin-top: 1%;
+    font-size: 2.5vw;
+    font-weight: bold;
+    position: fixed;
+    margin-left: 1%;
+}
+.up{
+    width: 97VW;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.not{
+    margin-right: 1.5%;
+    transition: 0.2s;
+}
+.not:hover{
+    transform: rotate(25deg);
+}
+.not2{
+    margin-right: 1.5%;
+    transition: 0.2s;
+    display: none;
+}
+.not2:hover{
+    transform: rotate(-25deg);
+}
+.ava{
+    border-radius: 100px;
+    float: left;
+    margin-right: 0.7%;
+}
+#nik{
+    font-size: 1.7vw;
+    font-weight: bold;
+    margin-right: 2%;
+}
+.knopki{
+    background-color: rgb(230, 153, 156);
+    border-radius: 0px 50px 50px 0px;
+    width: 10vw;
+    height: 80vh;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.5vw;
+    position: fixed;
+    margin-top: 8%;
+    padding-left: 1%;
+}
+.kn{
+    transition: 0.2s;
+    opacity: 50%;
+}
+.kn1{
+    transition: 0.2s;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #000;
+}
+.kn{
+    transition: 0.2s;
+    opacity: 50%;
+    text-decoration: none;
+    color: #000;
+}
+.knimg{
+    width: 25%;
+}
+
+.kn:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+}
+.kn1:hover{
+    transform: scale(1.2);
+}
+.big{
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    width: 75vw;
+    height: fit-content;
+    background-color:rgba(141, 132, 132, 0.055) ;
+    border-radius: 50px;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+.zag{
+    text-align: center;
+    font-size: 3vw;
+}
+.act1{
+    margin: auto;
+    background-color:rgba(141, 132, 132, 0.126) ;
+    width:70vw;
+    height: fit-content;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 4%;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-top: 2%;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20vw;
+    justify-content: space-evenly;
+}
+.avatarka{
+    margin-left: 2%;
+    float: left;
+    border-radius: 20%;
+    width: 30%;
+}
+.like{
+    font-size: 1.4vw;
+}
+.name{
+    font-size: 1.4vw;
+    font-weight: bold;
+    background-color: rgb(179, 197, 144);
+    border-radius: 10px;
+}
+.photo{
+    width: 9%;
+    border: 2px solid white;
+    border-radius: 1vw;
+}
+@media(max-width:700px){
+    .knopki{
+        border-radius: 0px 20px 20px 0px;
+        width: 10vw;
+        height: 40vh;
+
+    }
+}

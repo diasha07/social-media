@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="glav.css">
+</head>
+<body>
+    <p class="logo">PIX</p>
+    <header>
+        
+        <div class="up">
+            <div class="isk">
+                <input id="p" onkeyup="poisk()" placeholder="Search">
+                <img src="folder/lupa.png" alt="" class="search-icon">
+            </div>
+            <img onclick="off()" class="not" src="folder/notif.png" width="2.3%">
+            <img onclick="off2()" class="not2" src="folder/notifoff.png" width="2.3%">
+            <img class="ava" src="folder/ava.png" width="3%">
+            <p id="nik">user</p>
+        </div>
+    </header>
+    <main>
+        <div class="knopki">
+            
+            <a class="kn1" href="glav.html"><img class="knimg" src="folder/home.png" >home</a>
+            <a class="kn" href="music.html"><img class="knimg"  src="folder/music.png" >music</a>
+            <a class="kn" href="sms.html"><img class="knimg"  src="folder/friends.png" >friends</a>
+            <a class="kn" href="favourite.html"><img class="knimg"  src="folder/favourite.png" >action</a>
+            <a class="kn" href="profile.html"><img class="knimg"  src="folder/me.png" >profile</a>
+            <a class="kn" href="index.html"><img class="knimg"  src="folder/out.png" >log out</a>
+        </div>
+        <div class="big">
+            <div class="text1"><p onclick="sub()">Subscriptions</p></div>
+            <div class="stories">
+                <img class="st1" src="folder/yeonjun.jpg" width="60%">
+                <img class="st1" src="folder/henry.jpg" width="60%">
+                <img class="st1" src="folder/lana.jpg" width="60%">
+                <img class="st1" src="folder/Arctic Monkeys.jpg" width="60%">
+                <img class="st1" src="folder/smileface.jpg" width="60%">
+                <img class="st1" src="folder/cam.jpg" width="60%">
+                <img class="st1" src="folder/rutkis.jpg" width="60%">
+                <img class="st1" src="folder/mem.jpg" width="60%">
+                <img class="st1" src="folder/Chase Atlantic.jpg" width="60%">
+                <p class="niki">@yawnzzn</p>
+                <p class="niki">@henrycav</p>
+                <p class="niki">@lana_del_rey</p>
+                <p class="niki">@monkeys007</p>
+                <p class="niki">@smile_face</p>
+                <p class="niki">@aesthetics</p>
+                <p class="niki">@rutkis</p>
+                <p class="niki">@meme</p>
+                <p class="niki">@chase_what</p>
+            </div>
+            
+            <div class="post">
+                <div class="verh">
+                    <img class="avatarka" src="folder/yeonjun.jpg" width="10%">
+                    <p class="nikk">@yawnzzn</p>
+                </div>
+                <div class="photos1">
+                    <img class="ph1" src="folder/yeonpost1.jpg" width="100%">
+                    <img class="ph1" src="folder/yeonpost2.jpg" width="100%">
+                    <img class="ph1" src="folder/yeonpost3.jpg" width="100%">
+                    <img class="ph1" src="folder/yeonpost4.jpg" width="100%">
+                    <img class="ph1" src="folder/yeonpost5.jpg" width="100%">
+                    <img class="ph1" src="folder/yeonpost6.jpg" width="100%">
+                </div>
+                <div class="like">
+                    <img class="com" src="folder/com.png" width="3.8%">
+                    <img onclick="onstar(1)" class="star1" src="folder/star1.png" width="4%">
+                    <img onclick="offstar(1)"  class="star2" src="folder/star2.png" width="4%">
+                    <p class="posttext">Beautiful day⭐</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="verh">
+                    <img class="avatarka" src="folder/elis.jpg" width="10%">
+                    <p class="nikk">@shan_el</p>
+                </div>
+                <div class="photos2">
+                    <img class="ph1" src="folder/elpost1.jpg" width="100%">
+                    <img class="ph1" src="folder/elpost2.jpg" width="100%">
+                    <img class="ph1" src="folder/elpost3.jpg" width="100%">
+                    <img class="ph1" src="folder/elpost4.jpg" width="100%">
+
+                </div>
+                <div class="like">
+                    <img class="com" src="folder/com.png" width="3.8%">
+                    <img onclick="onstar(2)" class="star1_2" src="folder/star1.png" width="4%">
+                    <img onclick="offstar(2)"  class="star2_2" src="folder/star2.png" width="4%">
+                    <p class="posttext">Cosiness</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="verh">
+                    <img class="avatarka" src="folder/mem.jpg" width="10%">
+                    <p class="nikk">@meme</p>
+                </div>
+                <div class="photos3">
+                    <img class="ph1" src="folder/mem1 (2).jpg" width="70%">
+                </div>
+                <div class="like">
+                    <img class="com" src="folder/com.png" width="3.8%">
+                    <img onclick="onstar(3)" class="star1_3" src="folder/star1.png" width="4%">
+                    <img onclick="offstar(3)"  class="star2_3" src="folder/star2.png" width="4%">
+                    <p class="posttext">real</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="verh">
+                    <img class="avatarka" src="folder/maria.jpg" width="10%">
+                    <p class="nikk">@scqvf</p>
+                </div>
+                <div class="photos4">
+                    <img class="ph1" src="folder/mapost1.jpg" width="100%">
+                    <img class="ph1" src="folder/mapost2.jpg"width="100%">
+                </div>
+                <div class="like">
+                    <img class="com" src="folder/com.png" width="3.8%">
+                    <img onclick="onstar(4)" class="star1_4" src="folder/star1.png" width="4%">
+                    <img onclick="offstar(4)"  class="star2_4" src="folder/star2.png" width="4%">
+                    <p class="posttext">pouuuu╰(*°▽°*)╯</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="glav.js"></script>
+</html>
